@@ -4,6 +4,11 @@ public class Ask implements Offer {
     private String size = "";
     private Integer ask = 0;
 
+    public Ask(String size, Integer ask) {
+        this.size = size;
+        this.ask = ask;
+    }
+    
     public String size() {
         return this.size;
     }
